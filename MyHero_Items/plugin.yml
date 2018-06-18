@@ -1,0 +1,17 @@
+#name, main, version and api are required
+name: MyHeroItems
+main: Core.MyHeroMain_Items
+version: "0.1"
+api: ["1.0.5"]
+author: WindSkill
+description: Plugin MyHero Items for Nukkit
+commands:
+  MyHeroItems:
+    description: MyHero Items
+    aliases: [mhi]
+    permission: MyHeroItems.admin
+    permission-message: "You do not have the required permission to run /mhi"
+permissions:
+  MyHeroItems.admin:
+    description: "Allows the user to run the admin commands"
+    default: false
