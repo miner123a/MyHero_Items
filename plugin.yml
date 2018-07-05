@@ -1,7 +1,7 @@
 #name, main, version and api are required
 name: MyHeroItems
 main: MyHero_Items.Core.MyHeroMain_Items
-version: "0.1"
+version: "1.2"
 api: ["1.0.5"]
 author: WindSkill
 description: Plugin MyHero Items for Nukkit

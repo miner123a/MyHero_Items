@@ -4,7 +4,6 @@ import java.util.concurrent.ThreadLocalRandom;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import MyHero_Core.Managers.LangManager;
 import cn.nukkit.item.Item;
 import cn.nukkit.item.ItemColorArmor;
 import cn.nukkit.item.enchantment.Enchantment;
@@ -51,7 +50,7 @@ public class ItemStackConstructor extends AbstractItemStackOption
 		int index = 0;
 		for (String s : item.getLore())
 		{
-			LangManager.Log(s);
+			
 			m = p.matcher(s);
 			while(m.find())
 			{
