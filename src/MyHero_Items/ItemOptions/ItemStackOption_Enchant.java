@@ -3,6 +3,7 @@ package MyHero_Items.ItemOptions;
 import java.util.List;
 
 import MyHero_Core.Managers.LangManager;
+import me.petterim1.customenchantsnk;
 import MyHero_Items.ItemManager.AbstractItemStackOption;
 import MyHero_Items.ItemManager.ItemStackOption;
 import cn.nukkit.item.enchantment.Enchantment;
